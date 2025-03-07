@@ -1,0 +1,18 @@
+
+Initalize a new repository in a directory:
+
+git init  
+
+To see status of file
+
+git status
+
+To add file for tracking 
+git add <file_name>
+git add .
+
+
+git commit -m "message"
+
+
+git log
