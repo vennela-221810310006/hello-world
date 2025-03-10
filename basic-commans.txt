@@ -25,6 +25,16 @@ clone an existing remote repository
     clone <remote repository url>
 
  Staging & Commiting Changes:
- Check the status of files:
+        
+        Check the status of files:
+            git status
 
-        git status   
+        Add files to the staging area:
+                git add .
+                git add <file_name>
+
+        Add & commit in one step:
+                git commit -m "Your commit message"
+
+                
+
