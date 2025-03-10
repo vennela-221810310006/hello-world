@@ -19,3 +19,12 @@ Check current Git configuration
 Initialize a new repository in a direction
 
     git init
+
+clone an existing remote repository
+    
+    clone <remote repository url>
+
+ Staging & Commiting Changes:
+ Check the status of files:
+
+        git status   
