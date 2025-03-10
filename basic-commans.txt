@@ -1,18 +1,21 @@
+Install git SCM:
+    https://git-scm.com
 
-Initalize a new repository in a directory:
+Check Git vesrion
 
-git init  
-
-To see status of file
-
-git status
-
-To add file for tracking 
-git add <file_name>
-git add .
+       git -v
 
 
-git commit -m "message"
+To set up your Git user details, run the following commands:
 
+1. Set Global User Details (For All Repositories)
+    git config --global user.name "Your Name"
+        git config --global user.email "vennelachowdary.2001@gmail.com"
 
-git log
+Check current Git configuration
+
+    git config --list
+
+Initialize a new repository in a direction
+
+    git init
