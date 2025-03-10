@@ -36,5 +36,17 @@ clone an existing remote repository
         Add & commit in one step:
                 git commit -m "Your commit message"
 
-                
+Add  SSH Key to github.com
 
+Before generating a new SSH key,Check if you already have one:
+    
+    ls -al ~/.ssh
+
+    to generete new ssh key
+    ssh-keygen -t ed25519 -C "your_email@example.com"
+
+    next evulate 
+    eval "$(ssh-agent -s)"
+
+    ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
