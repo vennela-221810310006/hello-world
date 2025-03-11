@@ -70,3 +70,26 @@ view file changes
 view changes in stanged files:
 
     git diff --staged
+
+
+Working with branches:
+
+View all branches:
+git branch
+
+create a new branch 
+git branch <new-branch-name>
+
+Swiching to another branch 
+git checkout <branch-name>
+
+creating and checking out
+git checkout -b <new-branch-name>
+
+merge a branch into the current branch:
+git merge <branch-name>
+
+delete branch
+git branch -d <branch-name>
+
+
